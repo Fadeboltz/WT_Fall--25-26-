@@ -106,8 +106,8 @@
             return;
         }
 
-        document.getElementId("success").innerHTML = ` 
-        <strong>Registration Successful!</strong>
+        document.getElementById("success").innerHTML = ` 
+        <strong>Registration Successful</strong><br>
         Name: ${name} <br>
         Email: ${email} <br>
         Phone: ${phone} `;
@@ -115,4 +115,10 @@
     function addactivity()
     {
         let activityname =document.getElementbyId("activityinput").value.trim();
+        
+        if(activityname === "")
+        {
+            alert("Activity name cannot be empty!");
+            return;
+        }
     }
