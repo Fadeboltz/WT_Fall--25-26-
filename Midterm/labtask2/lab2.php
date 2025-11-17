@@ -38,23 +38,37 @@
      <h1>Participant Registration Form</h1>
     <div class="formpage">
     Full Name: <br> 
-    <input type="text" /> <br> <br>
+    <input type="text" id="fullname"> <br> <br>
+
     Email:  <br>
-    <input type="text" /> <br> <br>
+    <input type="text" id="email"> <br> <br>
+
     Phone Number:  <br>
-    <input type="number" /> <br> <br>
+    <input type="number" id="phone"> <br> <br>
+
     Password :  <br>
-    <input type="password" /> <br> <br>
+    <input type="password" id="pass"> <br> <br>
+
     Confirm Password:  <br>
-    <input type="password" /> <br><br>
+    <input type="password" id="confirmpass:"> <br><br>
     
     <button onclick="register()">Register</button>
+
+    <div id="success"></div>
+
     </div>
+
 <br> <br>
 <div class="formpage">
+
     <h1>Activity Section</h1>
+
     Activity name: <br>
-    <input type="text" /> <br> <br>
+    <input type="text" id="activityinput"> <br> <br>
+
     <button onclick="addActivity()">Add Activity</button>
+
+    <h1>Activities List</h1>
+    <div id="activitylist"></div>
 </div>
     
