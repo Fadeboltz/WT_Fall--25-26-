@@ -100,12 +100,6 @@
             return;
         }
 
-        if(pass.length < 6)
-        {
-            alert("Password must be at least 6 characters long!");
-            return;
-        }
-
         if(pass !== confirmpass)
         {
             alert("Passwords do not match!");
@@ -117,5 +111,4 @@
         Name: ${name} <br>
         Email: ${email} <br>
         Phone: ${phone} `;
-
     }
