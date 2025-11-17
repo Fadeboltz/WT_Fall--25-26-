@@ -47,7 +47,14 @@
     <input type="password" /> <br> <br>
     Confirm Password:  <br>
     <input type="password" /> <br><br>
-
-    <input type="submit" value="Register">
+    
+    <button onclick="register()">Register</button>
     </div>
-
+<br> <br>
+<div class="formpage">
+    <h1>Activity Section</h1>
+    Activity name: <br>
+    <input type="text" /> <br> <br>
+    <button onclick="addActivity()">Add Activity</button>
+</div>
+    
