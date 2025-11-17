@@ -72,3 +72,50 @@
     <div id="activitylist"></div>
 </div>
     
+<script>
+
+    function register()
+    {
+        let name = document.getElementById("fullname").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let phone = document.getElementById("phone").value.trim();
+        let pass = document.getElementById("pass").value.trim();
+        let confirmpass = document.getElementById("confirmpass").value.trim();
+
+        if(name === "" || email === "" || phone === "" || pass === "" || confirmpass === "")
+        {
+            alert("All fields are required!");
+            return;
+        }
+
+        if(!email.includes("@"))
+        {
+            alert("Email must contain '@'");
+            return;
+        }
+
+        if(isNaN(phone))
+        {
+            alert("Phone number must contain only digits!");
+            return;
+        }
+
+        if(pass.length < 6)
+        {
+            alert("Password must be at least 6 characters long!");
+            return;
+        }
+
+        if(pass !== confirmpass)
+        {
+            alert("Passwords do not match!");
+            return;
+        }
+
+        document.getElementId("success").innerHTML = ` 
+        <strong>Registration Successful!</strong>
+        Name: ${name} <br>
+        Email: ${email} <br>
+        Phone: ${phone} `;
+
+    }
