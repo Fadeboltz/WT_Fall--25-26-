@@ -23,6 +23,14 @@
         padding: 20px;
         margin: auto;
     }
+    input
+    {
+        width: 480px;
+        padding: 8px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
 </style>
 <body>
 
