@@ -4,13 +4,31 @@
 <head>
     <title>Participant  Registration</title>
 </head>
-
+<style>
+    body 
+    {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f0f8ff;
+    }
+    h1 
+    {
+      text-align: center;
+      color: #003366;
+    }
+    .formpage
+    {
+        background-color: #ffffff;
+        width: 350px;
+        padding: 20px;
+        margin: auto;
+    }
+</style>
 <body>
 
-    <center>
+    
         <h1>Participant Registration Form</h1>
-    </center>
-
+   
     Full Name: <br>
     <input type="text" /> <br>
     Email:  <br>
