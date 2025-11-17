@@ -112,3 +112,7 @@
         Email: ${email} <br>
         Phone: ${phone} `;
     }
+    function addactivity()
+    {
+        let activityname =document.getElementbyId("activityinput").value.trim();
+    }
