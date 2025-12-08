@@ -50,7 +50,7 @@
     <input type="password" id="pass"> <br> <br>
 
     Confirm Password:  <br>
-    <input type="password" id="confirmpass:"> <br><br>
+    <input type="password" id="confirmpass"> <br><br>
     
     <button onclick="register()">Register</button>
 
@@ -122,3 +122,4 @@
             return;
         }
     }
+    </script>
